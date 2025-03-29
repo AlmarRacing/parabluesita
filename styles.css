@@ -17,7 +17,7 @@ body {
 	background-color: white;
 	width: 90%;
 	height: 80%;
-	padding: 1rem;
+	padding: 1vw;
 	border-radius: .4rem;
 	text-align: center;
 	box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.9);
@@ -29,9 +29,9 @@ body {
 	justify-content: center;
 }
 div button {
-	margin-top: 1rem;
-	padding: 0.7rem 1.5rem;
-	font-size: 1.2rem;
+	margin-top: 1vw;
+	padding: 0.7vw 1.5vw;
+	font-size: 3.2vw;
 	border: none;
 	border-radius: 1.5rem;
 	cursor: pointer;
@@ -72,15 +72,18 @@ div span {
 	justify-content: center;
 }
 .laterales {
-	width: 3%;
-	font-size: 2rem;
+	font-size: 4vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
 }
 
 #central {
-	width: 94%
+	width: 92%;
 }
 
 #cuadroImagen {
+	width: 100%;
+	height: auto;
     opacity: 1;
     transition: opacity 1s ease-in-out;
 }
