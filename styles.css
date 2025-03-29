@@ -1,0 +1,91 @@
+html {
+    height: 100%
+}
+body {
+	padding: 0;
+	margin: 0;
+	background: rgb(106,88,212);
+	background: radial-gradient(circle, rgba(106,88,212,1) 0%, rgba(29,25,75,1) 37%, rgba(0,0,0,1) 100%);
+	font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; /* Fuente tipo iPhone */
+}
+#content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	background-color: white;
+	width: 90%;
+	height: 80%;
+	padding: 1rem;
+	border-radius: .4rem;
+	text-align: center;
+	box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.9);
+}
+#content div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+div button {
+	margin-top: 1rem;
+	padding: 0.7rem 1.5rem;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 1.5rem;
+	cursor: pointer;
+	font-family: inherit;
+	font-weight: 600;
+	transition: .5s all;
+	width: max-content;
+}
+div button:first-of-type:hover {
+	transform: scale(1.4);
+	background-color: rgb(78, 65, 161);
+}
+div button:first-of-type {
+	background-color: rgb(29, 25, 75);
+	color: white;
+}
+/*div button:last-of-type:hover {
+	transform: scale(0.9);
+	background-color: grey;
+}
+div button:last-of-type {
+	background-color: #c8c8c8;
+	color: black;
+}*/
+div span {
+	color: rgb(29, 25, 75);
+	font-weight: 600;
+}
+#accept {
+	display: none;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.laterales {
+	width: 3%;
+	font-size: 2rem;
+}
+
+#central {
+	width: 94%
+}
+
+#cuadroImagen {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+#cajaTxt{
+	opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
